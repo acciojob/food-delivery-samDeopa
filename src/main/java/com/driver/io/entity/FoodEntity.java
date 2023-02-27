@@ -15,6 +15,7 @@ import javax.persistence.Id;
 
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity(name = "foods")
 public class FoodEntity{
 	@Id
