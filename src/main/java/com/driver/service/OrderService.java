@@ -3,10 +3,12 @@ package com.driver.service;
 import java.util.List;
 
 import com.driver.shared.dto.OrderDto;
+import org.springframework.stereotype.Repository;
 
 /**
  * Handle exception cases for all methods which throw Exception
  */
+@Repository
 public interface OrderService {
 
 	OrderDto createOrder(OrderDto order);
